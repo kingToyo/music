@@ -1,0 +1,60 @@
+/* 设置全局样式 */
+#hequiv{
+  width: 100%;
+  height: 75px;
+  margin-top: 6px;
+  border-top: 1px solid #D6D5D6;
+  background: #FFF;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* 设置logo */
+#hequiv .music-logo{
+  width: 130px;
+  height: 35px;
+  margin-top: 18px;
+  border: 1px solid transparent;
+  display: flex;
+}
+#hequiv .music-logo>i{
+  width: 50px;
+  height: 35px;
+  background: url("../img/logo(1).png") no-repeat;  
+  display: inline-block;
+}
+#hequiv .music-logo>p{
+  margin: 5px 0 0 5px; 
+  color: #8C8C8C;
+  font: 18px "微软雅黑";
+}
+/* 设置中间导航 */
+#hequiv .music-navi{
+  width: 270px;
+  height: 35px;
+  margin-top: 18px;
+}
+#hequiv .music-navi ul li a{
+  float: left;
+  display:inline-block;
+  font:16px "微软雅黑" ;
+  color: #333;
+  margin: 8px 0 0 35px;
+}
+/* 设置右边的注册|登录 */
+#hequiv .music-gin{
+  width: 160px;
+  height: 35px;
+  margin-top: 20px;
+}
+#hequiv .music-gin ul li a{
+  float: left;
+  display:inline-block;
+  font:14px "微软雅黑" ;
+  color: #6B6B6B;
+  transition: all 0.3s linear;
+  margin: 10px 0 0 1px;
+}
+#hequiv .music-gin ul li a:hover{
+  color: #E50012;
+}

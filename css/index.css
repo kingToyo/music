@@ -1,0 +1,341 @@
+/*设置总体的布局*/
+#both-sides{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  border:1px solid red;
+}
+/*设置轮播图的总体样式*/
+#slide{
+  width: 1200px;
+  height: 400px;
+  overflow:hidden;
+  position:relative;
+  border-radius:2px;
+}
+/*设置轮播图*/
+#slide ul.banner-img{
+ position:absolute;
+ left:0;
+}
+#slide ul.banner-img>li{
+	float: left;
+  width: 1200px;
+}
+#slide ul.banner-img img{
+  width: 1200px;
+  height: 400px;
+}
+/*设置左右按钮*/
+#slide a.ck-slide{
+   width:30px;height:45px;
+   border-radius:5px;
+   position:absolute;
+   top:175px;
+ }
+#slide a.ck-left{
+  background:rgba(0,0,0,.3) url(../img/arrow-left.png) no-repeat center center;
+  left:5px;
+}
+#slide a.ck-right{
+  background:rgba(0,0,0,.3) url(../img/arrow-right.png) no-repeat center center;
+right:5px;
+}
+/*设置小圆点*/
+#slide ul.indicators{
+  position:absolute;
+  bottom:15px;
+  right:565px;
+}
+#slide ul.indicators li{
+  float:left;
+  width:10px;
+	height:10px;
+  background:#FFF;
+  border-radius:50%;
+  margin:0 5px;
+	transition:all .2s linear;
+}
+#slide ul.indicators li.hover,#slide ul.indicators li.hover{
+	cursor:pointer;
+  background-color:#BC2970;
+}
+/*设置导航栏*/
+#recommend{
+  width:100%;height:54px;
+  margin:13px 0;
+  background:rgba(0,0,0,.1);
+  border-radius:2px;
+}
+#recommend>p{
+  line-height:54px;
+  margin-left:10px;
+}
+#recommend >p>span{
+  font-size:18px;
+  color:#000;
+}
+#recommend>p>a{
+  font: 12px "微软雅黑";
+  color:#BC2970;
+}
+/* 设置电梯滚动 */
+#lift{
+    margin-top: 25px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    background-color: #918888;
+    left: 88px;
+    top: 200px;
+}
+.lift_list{
+  display: block;
+  list-style:none;
+}
+.lift_item {
+  border-top: 1px solid #b1aaaa;
+  /* transition: background-color .1s; */
+  transition:all .3s linear;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 24px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}
+.lift_item:hover, .lift_item_on {
+    position: relative;
+    border-bottom: 1px solid #E50012;
+    margin-bottom: -1px;
+    border-color: #E50012;
+    background-color: #E50012;
+}
+.lift_btn {
+    overflow: hidden;
+    display: block;
+    width: 34px;
+    padding: 10px 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #fefefe;
+    transition: color .1s;
+}
+.lift_btn_txt:hover{
+  color:blue;
+}
+/*设置主体图片显示*/
+#playlist {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  width:100%;height:600px;
+}
+#playlist ul.picture{
+  width:280px;height:290px;
+}
+#playlist ul.picture li a.img-box{
+  display:block;
+  width:280px;height:240px;
+  border:1px solid transparent;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#playlist ul.picture li img{
+  width:280px;height:240px;
+  transition:all .3s linear;
+}
+#playlist ul.picture li img:hover{
+  background:rgba(0,0,0,.3) url(../img/cover_play.png) no-repeat center center;
+  transform:scale(1.1);
+}
+#playlist ul.picture li.sha{
+  margin-top:6px;
+}
+#playlist ul.picture li.sha a{
+  margin-left:10px;
+  font:16px "微软雅黑";
+  color:#000;
+}
+#playlist ul.picture li.nan a{
+  margin-left:10px;
+  font:12px "微软雅黑";
+}
+/*排行榜样式*/
+#ranking-list{
+  width: 100%;
+  height: 550px;
+  background:linear-gradient(to bottom,#F3F3F3,#FFF);
+}
+#ranking-list div.ranking {
+  width: 100%;
+  height: 75px;
+}
+#ranking-list div.ranking h1 {
+  margin-top: 20px;
+  font: 30px "微软雅黑";
+  text-align: center;
+  color: #000;
+}
+/*排行榜主体*/
+#ranking-list div.peakedness {
+ width: 100%;
+ display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap; 
+}
+#ranking-list div.peakedness>ul {
+  width: 224px; 
+  height: 500px;
+}
+#ranking-list div.peakedness>ul h3 {
+  margin-bottom: 20px;
+}
+#ranking-list div.peakedness>ul li.albedo{
+  color: aliceblue;
+  font:"微软雅黑";
+   text-align: center;
+}
+#ranking-list div.peakedness>ul li.albedo p.last-dian {
+  font: 20px "微软雅黑";
+  margin-top: 20px;
+}
+#ranking-list div.peakedness>ul li.albedo p.last-liu {
+ font: 25px "微软雅黑";
+}
+#ranking-list div.peakedness>ul li {
+  margin-top: 8px;
+}
+#ranking-list div.peakedness>ul li a {
+  color:#FFF;
+   font: 13px "微软雅黑";
+   margin-left: 30px;
+   transition:all .3s linear;
+}
+#ranking-list div.peakedness>ul li a:hover {
+   color: #BC2970;
+}
+#ranking-list div.peakedness>ul li.singer{
+  margin-bottom: 20px;
+}
+#ranking-list ul.ul-peakedness_1F {
+  background: url("../img/bg_index_top.jpg") no-repeat;  
+} 
+#ranking-list ul.ul-peakedness_2F {
+  background: url("../img/bg_index_top.jpg") no-repeat;  
+  background-position:-224px 0px;
+}
+#ranking-list ul.ul-peakedness_3F {
+   background: url("../img/bg_index_top.jpg") no-repeat;  
+  background-position:-448px 0px;
+}
+#ranking-list ul.ul-peakedness_4F {
+  background: url("../img/bg_index_top.jpg") no-repeat;  
+  background-position:-672px 0px;
+}
+#ranking-list ul.ul-peakedness_5F {
+  background: url("../img/bg_index_top.jpg") no-repeat;  
+  background-position:-896px 0px;
+}
+/*MV样式设置*/
+#mv{
+  width: 100%;
+  height: 565px;
+  background:linear-gradient(to bottom,#F3F3F3,#FFF);
+}
+/* 设置mv轮播窗口 */
+#mv div.mv-bezel{
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+}
+/*设置ul父元素为容器*/
+#mv div.mv_xz{
+  width: 4800px;
+  height: 470px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+#mv div.mv_xzq{
+  width: 1200px;
+  height: 470px;
+  /* display: inline-block; */
+  display: flex;
+ justify-content: space-between;
+ flex-flow: wrap;
+}
+/*设置每个ul的尺寸样式*/
+#mv div.mv_xzq>ul{
+  width: 224px;
+  height: 235px;
+  display: inline-block;
+}
+#mv li.mv_img{
+  width: 224px;
+  height: 126px;
+  display: inline-block;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/*设置标题头*/
+#mv div.mv_box{
+  width: 100%;
+  height: 75px;
+}
+#mv div.mv_box h1{
+  margin-top: 20px;
+  font:30px "微软雅黑";
+  text-align: center;
+  color: #000;
+}
+/*设置图片的大小*/
+#mv ul li a img{
+  width: 224px;
+  height: 126px;
+  transition: all .3s linear;
+}
+#mv ul li a img:hover{
+  transform: scale(1.1);
+}
+#mv ul li.mv_sha{
+  margin-top: 10px;
+}
+#mv ul li.mv_sha a{
+  margin-left: 10px;
+  font: 14px "微软雅黑";
+  color: #000;
+}
+#mv ul li.mv_nan a{
+  margin-left: 10px;
+  font: 12px "微软雅黑";
+  transition: all .3s linear;
+}
+#mv ul li:last-child{
+  width:223px;
+  height: 50px;
+  margin-top: 10px; 
+}
+#mv ul li:last-child>i{
+  margin: 2px 6px 0 10px ; 
+  width: 24px;  
+  height: 16px;
+  background: url("../img/icon_sprite.png") no-repeat;  
+  display: inline-block;
+  background-position:-176px -18px;
+}
+#mv ul li:last-child>span{
+ position: relative;
+  width: 60px;  
+  height: 20px;
+  bottom: 3px;
+  font: 15px "微软雅黑";
+  display: inline-block;
+}

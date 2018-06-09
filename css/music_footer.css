@@ -1,0 +1,39 @@
+/* 总体样式 */
+#music-bottom{
+  width: 100%;
+  height: 230px;
+ 
+}
+div.music-opinion{
+ text-align: center;  
+}
+div.music-safeguard{
+  width: 100%;
+  height: 55px;
+  margin-top: 20px;
+}
+div.music-safeguard>img{
+  width: 1100px;
+}
+div.music-opinion ul{
+  margin: 50px 0 25px 0;
+}
+div.music-opinion ul li{
+  display: inline-block;
+}
+div.music-opinion>ul>li>a,span{
+  color: #545452;
+  font: 16px "微软雅黑";
+  transition: all 0.3s linear;
+}
+div.music-opinion>ul>li>a:hover{
+  color: #E50012;
+}
+div.music-permission{
+  width: 100%;
+  height: 40px;
+}
+div.music-permission>p{
+  color: #B4B3BD;
+  font: 15px "微软雅黑";
+}

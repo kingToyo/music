@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>商城首页</title>
+  <link rel="stylesheet" href="css/music_base.css">
+  <link rel="stylesheet" href="css/music_index.css">
+</head>
+<body>
+  <!-- 全局样式   -->
+  <div class="music-main">
+    <!-- 引入头部 -->
+    <header id="music-header">
+      <img src="img/loading.gif" alt="加载中...">  
+    </header>
+    <!--轮播图-->
+    <div id="music-slide">
+      <ul class="music-banner-img" data-load="music-dannerImgs">
+        <!-- 动态加载 -->
+        <!-- <li>
+          <a href="#">
+            <img src="img/index-carousel-1.jpg" alt="">
+          </a>
+        </li> -->
+        <!-- <img src="img/loading.gif" alt="加载中..."> -->
+      </ul>
+      <!--左右箭头-->
+        <a href="javascript:;" class="music-slide music-left" data-move="musick-left"></a>
+        <a href="javascript:;" class="music-slide music-right" data-move="musick-right"></a>
+      <!--导航小圆点-->
+      <ul class="music-indicators" data-load="music-bannerInds">
+      <!-- <li></li> -->
+      </ul>
+    </div>
+    <!-- 为您推荐 -->
+    <div id="music-recommend" class="music-center">
+      <!-- 标题 -->
+      <p class="music-zongcaption">
+        <a href="javascript:;">
+            为您推荐
+        </a>
+      </p>
+      <!-- 前两块布局 -->
+      <div class="music-junior"> 
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/1501147141cd56aa158ac0a62b10801bd6e8ad7341.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">海蝶音乐&nbsp;VIP</a>
+          </li>
+          <li>
+            <a href="javascipt:;">海量尊享特权等你来嗨</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;10</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/1501147165d7e067180fcdd8a7cf8c2fb328603a9f.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">百度&&nbsp;1MORE&nbsp;入耳线控耳机</a>
+          </li>
+          <li>
+            <a href="javascipt:;">订制款专属蓝色</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;149</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 后两块布局 -->
+      <div class="music-descendant">
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501147187bd78e7a2668910afeefa93a21766208a.jpg" alt="VIP">
+            </a>
+            </li>
+            <li>
+              <a href="javascipt:;">百度&libratone&nbsp;Q&nbsp;CORE</a>
+            </li>
+            <li>
+              <a href="javascipt:;">头戴式耳机</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;698</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="javascipt:;">
+                <img src="img/music/1501c0.jpg" alt="VIP">
+              </a>
+            </li>
+            <li>
+              <a href="javascipt:;">VINCI&nbsp;1.5Lite&nbsp;智能头机</a>
+            </li>
+            <li>
+              <a href="javascipt:;">包含12个月VIP音乐服务</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;1299</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <!-- 中间的广告条 -->
+    <div class="music-advertising music-center">
+      <a href="javascript:;" class="lf">
+        <img src="img/music/temp_adv01.jpg" alt="线控耳机">
+      </a>
+      <a href="javascript:;" class="rf">
+        <img src="img/music/temp_adv02.jpg" alt="VIP">
+      </a>
+    </div>
+    <!-- 影音硬件 -->
+    <div id="music-hardware" class="music-center">
+      <!-- 标题 -->
+      <p class="music-zongcaption">
+        <a href="javascript:;">
+            影音硬件
+        </a>
+      </p>
+      <!-- 前一块布局 -->
+      <div class="music-commodity lf"> 
+        <!-- <a href="javascript:;" class="mucis-nocomm"> -->
+          <ul>
+            <li>
+              <a href="javascipt:;">
+                <img src="img/music/15135855668131c0c48d4c3a1fbaf6bb3fcc5ee98f.jpg" alt="VIP">
+              </a>
+            </li>
+            <li>
+              <a href="javascipt:;">BOOTST劲步</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;179</a> <span>¥249</span>
+            </li>
+            <li>
+              <a href="javascipt:;">立即购买</a>
+            </li>
+          </ul>
+        <!-- </a> -->
+      </div>
+      <!-- 后六块布局 -->
+      <div class="music-sixkuai">
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/151359045180630f24ad1449030c60804f0031c648.jpg" alt="VIP">
+            </a>
+            </li>
+            <li>
+              <a href="javascipt:;">捷波朗&nbsp;HaloFree悦奇</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;399</a>
+              <span>¥599</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="javascipt:;">
+                <img src="img/music/15011347858f29d29f99556de0fa5f3a52a36b477e.jpg" alt="VIP">
+              </a>
+            </li>
+            <li>
+              <a href="javascipt:;">in麦直播全民k歌唱歌神器&nbsp;麦克风</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;258</a>
+              <span></span>
+            </li>
+          </ul>
+          <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/15011472083cb237b6442c378a6f4bc8f6d0a14728.jpg" alt="VIP">
+            </a>
+            </li>
+            <li>
+              <a href="javascipt:;">VINCI&nbsp;1.5Lite&nbsp;智能头机</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;1299</a>
+              <span>¥1499</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="javascipt:;">
+                <img src="img/music/1513590969d0c10b7949e3af45fb180d1dca04d562 (2).jpg" alt="VIP">
+              </a>
+            </li>
+            <li>
+              <a href="javascipt:;">捷波朗&nbsp;TALK鹂音</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;129</a>
+              <span>¥169</span>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="javascipt:;">
+                <img src="img/music/1513590969d0c10b7949e3af45fb180d1dca04d562.jpg" alt="VIP">
+              </a>
+            </li>
+            <li>
+              <a href="javascipt:;">捷波朗&nbsp;STORM炫月3</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;339</a>
+              <span>¥439</span>
+            </li>
+          </ul>
+          <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1513590736282d8874741b16de25d12b31b0fe82df.jpg" alt="VIP">
+            </a>
+            </li>
+            <li>
+              <a href="javascipt:;">Sport&nbsp;Coach&nbsp;Special&nbsp;Edition&nbsp;扩驰</a>
+            </li>
+            <li>
+              <a href="javascipt:;">¥&nbsp;799</a>
+              <span>¥1099</span>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <!-- 中间的横条 -->
+    <div class="music-tbody music-center">
+    </div>
+    <!-- 明星周边 -->
+    <div id="music-hardware" class="music-center">
+      <!-- 标题 -->
+      <p class="music-zongcaption">
+        <a href="javascript:;">
+          明星周边
+        </a>
+      </p>
+      <!-- 前一块布局 -->
+      <div class="music-commodity lf">
+        <!-- <a href="javascript:;" class="mucis-nocomm"> -->
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/150113205907933e69ab7fb1942123e8a57eabebb1.png" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">冯建宇明星周边应援24寸卷轴挂画</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;36</a>
+            <span>¥49</span>
+          </li>
+          <li>
+            <a href="javascipt:;">立即购买</a>
+          </li>
+        </ul>
+        <!-- </a> -->
+      </div>
+      <!-- 后六块布局 -->
+      <div class="music-sixkuai">
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1513590969d0c10b7949e3af45fb180d1dca04d562 (4).jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">人气爆品—薛之谦同款拼图</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;39</a>
+            <span>¥59</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501132133b7d272f344ff4ff017d4428fa3f8d747.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">Jay&nbsp;周杰伦&nbsp;蓝牙充电音乐台灯音响</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;79</a>
+            <span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501132174993f2238973e26074a7f3a933ea93a06.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">薛之谦同款周边卡通短款钱包</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;92</a>
+            <span>¥129</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/150113221563142a0651b50b69f9debec7ec711344.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">薛之谦周边抱枕</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;129</a>
+            <span>¥169</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501132253397e660b1bcf2264f9526d15d2457409.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">时尚有态度，王菲帽子渔夫帽</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;28</a>
+            <span>¥35</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501131988e309b9a8e7cec7133b4588ee6556584c.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">薛之谦明星周边专辑音乐台灯音响</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;108</a>
+            <span>¥148</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 中间的横条 -->
+    <div class="music-tbody music-center">
+    </div>
+    <!-- 其他商品 -->
+    <div id="music-hardware" class="music-center">
+      <!-- 标题 -->
+      <p class="music-zongcaption">
+        <a href="javascript:;">
+          其他商品
+        </a>
+      </p>
+      <!-- 前一块布局 -->
+      <div class="music-commodity lf">
+        <!-- <a href="javascript:;" class="mucis-nocomm"> -->
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/150113235931d071696a1dd4c98004f6a24579a809.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">儿童玩具奇趣海洋布艺钓钓乐</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;69</a>
+            <span>¥89</span>
+          </li>
+          <li>
+            <a href="javascipt:;">立即购买</a>
+          </li>
+        </ul>
+        <!-- </a> -->
+      </div>
+      <!-- 后六块布局 -->
+      <div class="music-sixkuai">
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/15011324109d844f328d308285fb32957cb26113d8.png" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">优彼智能启蒙故事机优享红色款</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;168</a>
+            <span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/15011324661d9099497bb006f182d3c11207923004.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">贝恩施(beiens)积木玩具轨道火车</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;68</a>
+            <span></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501132524f79a533cd4a660aa83da9621d0292efe.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">贝芬乐(buddyfun)儿童音乐话筒</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;88</a>
+            <span>¥120</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/15011325819db68030f0b9a2b19da80befcd6bf497.jpg" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">阿李罗火火兔早教机故事机WiFi版</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;198</a>
+            <span>¥229</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/15011326971cfde74134a9649b1ad2ce2b8a64b626.png" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">美美兔V1早教8G内存讲故事-胎教机</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;98</a>
+            <span>¥139</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="javascipt:;">
+              <img src="img/music/1501132744ce56cfc1de0907cf3aa6712a5e942859.png" alt="VIP">
+            </a>
+          </li>
+          <li>
+            <a href="javascipt:;">优彼(ubbie)魔法手表&nbsp;小车版&nbsp;粉色</a>
+          </li>
+          <li>
+            <a href="javascipt:;">¥&nbsp;798</a>
+            <span>¥1399</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 中间的横条 -->
+    <div class="music-tbody music-center">
+    </div>
+    <footer id="music-footer">
+      <img src="img/loading.gif" alt="加载中...">
+    </footer>
+  </div>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/music_header.js"></script>
+  <script src="js/music_footer.js"></script>
+  <script src="js/music_index.js"></script>
+</body>
+</html>

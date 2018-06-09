@@ -1,0 +1,79 @@
+/*设置总体样式*/
+#enter{
+  width: 100%;
+  height: 560px;
+  background: #FFF;
+  position: relative;
+}
+#enter div.surface{
+  width: 350px;
+  height: 300px;
+}
+
+#enter div.surface a:nth-child(2){
+  position: absolute;
+  color: #666;
+  font: 16px "宋体";
+  top: 135px;
+  right: 200px;
+}
+#enter div.surface a:nth-child(3){
+  position: absolute;
+  color: #666;
+  font: 16px "宋体";
+  top: 135px;
+  right: 435px;
+}
+#enter div.surface a:hover{
+  color: #BC2970;
+}
+#enter div.login_img{
+  width: 330px;
+  height: 240px;
+  position: absolute;
+  top: 75px;
+  left: 150px;
+}
+#enter div.login_img>img{
+  width: 330px;
+  height: 240px;
+}
+#login{
+  width: 350px;
+  height: 300px;
+  font: 20px "微软雅黑";
+  color:#FFF;
+  position: absolute;
+  top: 115px;
+  right: 155px;
+}
+#login input{
+  width: 300px;
+  height: 40px;
+  border:none;
+	outline:none;
+  border: 1px solid #757575;
+}
+#login input:nth-child(1){
+  font: 13px "微软雅黑";
+  margin: 50px 0 10px;
+  padding-left: 10px;
+}
+#login input:nth-child(3){
+  font: 13px "微软雅黑";
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#login input.list_btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  border:none;
+	outline:none;
+  background: linear-gradient(to bottom,#BC2970,#B069FE);
+  font-size: 14px;
+  color: #FFF;
+}
+#login input:nth-child(6){
+  margin-left: 106px;
+}

@@ -1,0 +1,128 @@
+/*设置整体样式*/
+#picture{
+  width:100%;height:60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius:3px;
+  margin: 10px 0;
+  /* background:rgba(0,0,0,.2); */
+  /* background: #FFF; */
+}
+/* 设置logo */
+div.logo-hai{
+  width: 160px;
+  height: 35px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 0  0 0;
+}
+div.logo-hai a.logo{
+  width: 50px;
+  height: 35px;
+  display: inline-block;
+  background: url(../img/logo_4.png) no-repeat;
+}
+div.logo-hai h1{
+  vertical-align: top;
+  display: inline-block;
+  font: 23px "幼圆";
+  margin: 5px 0 0 0;
+
+}
+/*设置搜索框*/
+#top-input{
+  width: 200px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #818181;
+  border-radius: 20px;
+  background: #FFF;
+  vertical-align: top;
+  margin: 14px 10px 0 20px;
+}
+#top-input input{
+  width:160px;
+  font-size:12px;
+  line-height:30px;
+  background:transparent;
+  border:none;
+  outline:none;
+  margin-left:10px;
+}
+#top-input input:focus{
+  color:#000;
+}
+#top-input>a.search-img{
+  width: 30px;
+  height: 30px;
+  background: url("../img/modules.png") -9px -2px no-repeat;
+  display: inline-block;
+  border-radius:50%;
+}
+/*设置导航*/
+#navigation{
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+}
+#navigation div.nav{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  }
+#navigation ul.tabs{
+  width: 500px;
+  height:100%;
+  display: inline-block;
+  list-style: none; 
+  padding: 0;
+  text-align: center;
+  }
+  #navigation ul.tabs>li{
+    float:left;
+  }
+#navigation ul.tabs li a{
+  text-decoration:none; 
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  color: #000;
+  margin-left: 55px;
+  display:inline-block;
+  transition: all 0.3s linear;
+}
+#navigation ul.tabs li a:hover{
+  color: #E50012;
+}
+#navigation div.box{
+  width: 65px; 
+  height: 3px;
+  position: relative;
+  bottom: 31px;
+  margin-left: 42px;
+  border-bottom: 3px solid #000;
+  transition: all 0.3s linear;
+  box-sizing: border-box;
+}
+/* 设置注册登录 */
+#register{
+  width: 200px;
+  height: 60px;
+  display: inline-block;
+}
+div.register>p>a{
+  color: blue;
+  display: inline-block;
+  font: 13px "微软雅黑";
+  transition: all 0.3s linear;
+}
+div.register>p>a:hover{
+  color: #E50012;
+}
+div.register>p.login-red>a:nth-child(3){
+  width: 25px;
+  height: 25px;
+  background: url("../img/mybg.png") 0px -195px no-repeat;
+}

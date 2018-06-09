@@ -1,0 +1,322 @@
+/* 设置轮播图的总体样式 */
+#music-slide{
+  width:1660px;
+  height:410px;
+  overflow:hidden;
+  position: relative;
+  /* border: 1px solid transparent; */
+  border-radius:2px;
+}
+/*设置轮播图*/
+#music-slide ul.music-banner-img{
+ position: absolute;
+ left:0;
+}
+#music-slide ul.music-banner-img>li{
+	float: left;
+  width: 1660px;
+  height: 410px;
+}
+#mcsic-slide ul.mcsic-banner-img img{
+  width: 1660px;
+  height: 410px;
+}
+/*设置左右按钮*/
+#music-slide a.music-slide{
+   width:45px;height:90px;
+   border-radius:5px;
+   position:absolute;
+   top:155px;
+ }
+#music-slide a.music-left{
+  background:rgba(0,0,0,.3) url(../img/sprite.png) no-repeat ;
+  background-position:-10px -895px;
+  left:5px;
+}
+#music-slide a.music-right{
+  background:rgba(0,0,0,.3) url(../img/sprite.png) no-repeat ;
+  background-position:-5px -1020px;
+right:5px;
+}
+/*设置小圆点*/
+#music-slide ul.music-indicators{
+  position:absolute;
+  bottom:15px;
+  right:750px;
+}
+#music-slide ul.music-indicators li{
+  float:left;
+  width:15px;
+	height:15px;
+  border-radius:50%;
+  margin:0 5px;
+  border: 1px solid #FFF;
+	transition:all .2s linear;
+}
+#music-slide ul.music-indicators li.hover,#music-slide ul.music-indicators li.hover{
+	cursor:pointer;
+  background-color:#E50012;
+}
+/* 设置为你推荐 */
+p.music-zongcaption{
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+p.music-zongcaption>a{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  color: #000;
+  font: 18px "微软雅黑";
+}
+#music-recommend{
+  height: 430px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#music-recommend div.music-junior{
+  width: 600px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#music-recommend div.music-descendant{
+  width: 480px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#music-recommend div.music-junior ul{
+  width: 280px;
+  height: 350px;
+}
+#music-recommend div.music-junior ul:nth-child(1){
+  background: #F8F4E8;
+}
+#music-recommend div.music-junior ul li:nth-child(2) a{
+  font: 15px "微软雅黑";
+  color: #000;
+  display: inline-flex;
+
+  margin: 10px 0 6px; 
+}
+#music-recommend div.music-junior ul li:nth-child(3) a{
+  font: 14px "微软雅黑";
+  color: #999;
+  display: inline-flex;
+  margin: 6px; 
+}
+#music-recommend div.music-junior ul li:nth-child(4) a{
+  font: 14px "微软雅黑";
+  color: #F12020;
+  display: inline-flex;
+  margin: 6px; 
+}
+#music-recommend div.music-junior ul:nth-child(2){
+  background: #F2F3F7;
+  border: 1px solid transparent;
+}
+
+#music-recommend div.music-junior ul img{
+  width: 240px;
+  height: 240px;
+  transition:all .3s linear;
+}
+#music-recommend div.music-junior ul img:hover{
+  transform:scale(1.1);
+}
+#music-recommend div.music-junior ul li:nth-child(1){
+  width: 240px;
+  height: 240px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  display: flex;
+  float: left;
+}
+#music-recommend div.music-descendant ul{
+  width: 430px;
+  height: 150px;
+  margin-top: 10px;
+}
+#music-recommend div.music-descendant ul li:nth-child(1){
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  display: flex;
+  float: left;
+}
+#music-recommend div.music-descendant ul img{
+  width: 150px;
+  height: 150px;
+  float: left;
+  transition:all .3s linear;
+}
+#music-recommend div.music-descendant ul img:hover{
+  transform:scale(1.1);
+}
+#music-recommend div.music-descendant ul:nth-child(1){
+  background: #FBF2F3;
+}
+#music-recommend div.music-descendant ul li:nth-child(2) a{
+  font: 15px "微软雅黑";
+  color: #000;
+  display: inline-flex;
+  margin: 40px 0 4px; 
+}
+#music-recommend div.music-descendant ul li:nth-child(3) a{
+  font: 14px "微软雅黑";
+  color: #999;
+  display: inline-flex;
+  margin: 4px; 
+}
+#music-recommend div.music-descendant ul li:nth-child(4) a{
+  font: 14px "微软雅黑";
+  color: #F12020;
+  display: inline-flex;
+  margin: 4px; 
+}
+#music-recommend div.music-descendant ul:nth-child(2){
+  border: 1px solid #EDEEEE;
+}
+/* 设置中间广告条 */
+div.music-advertising{
+  height: 200px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+div.music-advertising>a{
+  display: inline-flex;
+}
+div.music-advertising>a img{
+  width: 550px;
+  height: 200px;
+  transition:all .3s linear;
+}
+/* 设置商品的样式 */
+#music-hardware{
+  height: 570px;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.music-commodity{
+  width: 290px;
+  height: 552px;
+  border: 1px solid transparent;
+  transition:all .3s linear;
+}
+div.music-commodity:hover{
+  box-shadow: 1px 0 4px 3px #999;
+}
+div.music-commodity ul li:nth-child(1)>a img{
+  width: 290px;
+  height: 290px;
+  transition:all .3s linear;
+}
+div.music-commodity ul li:nth-child(1)>a img:hover{
+  transform:scale(1.1);
+}
+div.music-commodity ul li:nth-child(1){
+  width: 290px;
+  height: 290px;
+  border: 1px solid #FFF;
+  overflow: hidden;
+  display: flex;
+}
+div.music-commodity ul li:nth-child(2)>a{
+  color: #666;
+  display: inline-flex;
+  margin-top: 20px;
+  font: 15px "微软雅黑";
+}
+div.music-commodity ul li:nth-child(3){
+  display: inline-flex;
+  margin: 30px 0;
+}
+div.music-commodity ul li:nth-child(3)>a{
+  color: #E50012;
+  font: 18px "微软雅黑";
+}
+div.music-commodity ul li:nth-child(3)>span{
+  display: inline-flex;
+  margin: 5px 0 0 35px;
+  color: #CCC;
+  font: 12px "微软雅黑";
+  text-decoration: line-through;
+}
+div.music-commodity ul li:nth-child(4)>a{
+  display: block;
+  margin: 20px auto;
+  width: 120px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #DC0000;
+  border: 1px solid #DC0000;
+  border-radius: 3px;
+}
+div.music-commodity ul li:nth-child(4)>a:hover{
+  background: #DC0000;
+  color: #FFF;
+}
+/* 设置后六块 */
+div.music-sixkuai{
+  width: 768px;
+  height: 553px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+div.music-sixkuai ul{
+  width: 248px;
+  height: 275px;
+  transition:all .3s linear;
+  border: 1px solid transparent;
+}
+div.music-sixkuai ul:hover{
+  box-shadow: 1px 0 4px 3px #999;
+}
+div.music-sixkuai ul img{
+  width: 180px;
+  height: 180px;
+  transition:all .3s linear;
+}
+div.music-sixkuai ul img:hover{
+  transform:scale(1.1);
+}
+div.music-sixkuai ul li:nth-child(1){
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  display: inline-flex;
+}
+div.music-sixkuai ul li:nth-child(2)>a{
+  margin-top: 10px;
+  display: inline-flex;
+  color: #98A1B4;
+  font: 15px "微软雅黑";
+}
+div.music-sixkuai ul li:nth-child(3)>a{
+  margin-top: 20px;
+  display: inline-flex;
+  color: #DC0000;
+  font: 15px "微软雅黑";
+}
+div.music-sixkuai ul li:nth-child(3)>span{
+  display: inline-flex;
+  margin: 5px 0 0 35px;
+  color: #CCC;
+  font: 12px "微软雅黑";
+  text-decoration: line-through;
+}
+/* 设置中间的横条 */
+div.music-tbody{
+  height: 100px;
+}
